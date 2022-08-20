@@ -1,5 +1,5 @@
 Glide Technical Test
 
-By George Dinu
+MySQL Database connection details: [a relative link](dbh.class.php)
 
-20/08/2022 04:31
+By George Dinu                  20/08/2022 04:31
