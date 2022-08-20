@@ -1,0 +1,233 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+form{
+   
+    margin-bottom: 0;
+    margin-right: auto;
+}
+
+table {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vh;
+}
+  
+th, td {
+    text-align: left;
+    font-size: 1.3vh;
+    padding: 0.7vh;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+input[type=text], input[type=submit] {
+    width: auto;
+    height: 2vh;
+    border: none;
+    font-size: 1.1vh;
+    margin-bottom: 1vh;
+    margin-right: 0.5vh;
+    border-bottom: 1px solid #000;
+    background-color: rgb(255, 255, 255);
+}
+
+input:hover[type=submit] {
+    cursor: pointer;
+    background-color: rgb(122, 122, 122);
+}
+
+input[type=date]{
+    font-size: 1.1vh;
+    margin-right: 0.5vh;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 50vh;
+    height: 85vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    background-color: #b0b0b0;
+
+    border-radius: 2vh;
+}
+
+.title{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4vh;
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.editRecord{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataList{
+    position: relative;
+    height: 60%;
+    width: 100%;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    font-size: 1.3vh;
+}
+
+.dataTable{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    overflow-y: auto;
+}
+
+.actions{
+    position: relative;
+    height: 5%;
+}
+
+.actionBtns{
+    position:absolute; 
+    left: 35%;
+}
+
+.infoTextMain{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    padding: 1vh 2vh 1vh 1vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5vh;
+    background-color: rgb(0, 134, 7);
+    text-align: center;
+    font-size: 1.3vh;
+    font-weight: bold;
+    color: #000;
+}
+
+.error {
+    background-color: rgb(178, 0, 0);
+}
+
+.success {
+    background-color: rgb(0, 134, 7);
+}
+
+.infoClose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.4vh;
+    margin-top: 0.2vh;
+    margin-right: 0.2vh;
+    padding: 0.1vh;
+    background-color: rgba(209, 0, 0, .7);
+    color: #fff;
+    font-size: 1.0vh;
+}
+
+.infoClose:hover{
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
+
+.btnStyle{
+    padding: 1vh;
+    font-size: 1.1vh;
+    border: none;
+    background-color: rgba(82, 82, 82, 0.7);
+    border-radius: 0.5vh;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btnStyle:hover{
+    background-color: rgba(95, 95, 95, 1);
+    cursor: pointer;
+}
+
+.editBtn{
+    width: 2vh;
+    height: 2vh;
+    padding: 0.5vh;
+    margin-right: 0.5vh;
+    font-size: 1.1vh;
+    background-color: rgba(218, 218, 3, .7);
+    border-radius: 0.5vh;
+    color: #000000;
+    text-decoration: none;
+}
+
+.editBtn:hover{
+    background-color: rgba(255, 255, 0, 1);
+    cursor: pointer;
+}
+
+.deleteBtn{
+    width: 2vh;
+    height: 2vh;
+    padding: 0.5vh;
+    font-size: 1.1vh;
+    background-color: rgba(216, 0, 0, .7);
+    border-radius: 0.5vh;
+    color: #000000;
+    text-decoration: none;
+}
+
+.deleteBtn:hover{
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
+
+.showDataBtn{
+    width: 2vh;
+    height: 2vh;
+    padding: 0.5vh;
+    font-size: 1.1vh;
+    background-color: rgba(82, 82, 82, 0.7);
+    border-radius: 0.5vh;
+}
+
+.showDataBtn:hover{
+    background-color: rgba(95, 95, 95, 1);
+    cursor: pointer;
+}
+
+.showACVBtn{
+    width: 2vh;
+    height: 2vh;
+    padding: 0.5vh;
+    font-size: 1.1vh;
+    background-color: rgba(82, 82, 82, 0.7);
+    border-radius: 0.5vh;
+}
+
+.showACVBtn:hover{
+    background-color: rgba(95, 95, 95, 1);
+    cursor: pointer;
+}
