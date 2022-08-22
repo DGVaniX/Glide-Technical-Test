@@ -12,7 +12,6 @@
             $POSIds = "PUBOBJ1660,PUBOB4507,PUBOB4508,PUBOB4510,PUBOB4509,PUBOB4511,PUBOB4512,PUBOB4513,PUBOB4514,PUBOB4515,PUBOB4516,PUBOB4517,PUBOB4518,PUBOB4519,PUBOB4521,PUBOB4520,PUBOB4522,PUBOBJ1661,PUBOBJ1662";
             $dataUrl = "http://mip-prd-web.azurewebsites.net/CustomDataDownload?LatestValue=false&Applicable=applicableFor&FromUtcDatetime=2022-07-30T00:00:00.000Z&ToUtcDateTime=".$date."T00:00:00.000Z&PublicationObjectStagingIds=".$POSIds;
             $html = file_get_html($dataUrl);
-            var_dump($dataUrl);
             $this->emptyData();
 
             foreach($html->find("tbody tr") as $tr){
